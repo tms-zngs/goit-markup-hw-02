@@ -1,29 +1,31 @@
 body {
-  font-family: 'roboto', 'raleway', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .logo {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-}
-
-.web-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 
-.studio-logo {
+.studio-style {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+}
+
+.address-stngs {
+  font-style: normal;
 }
 
 .nav-links,
@@ -74,10 +76,14 @@ body {
   color: #404bbf;
 }
 
+.hero-section-stngs {
+  background-color: #2e2f42;
+}
+
 .page-tittle {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -85,11 +91,18 @@ body {
 
 .order-button {
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background-color: #4d5ae5;
   color: #fff;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
 }
 
 .feauture-list {
@@ -112,13 +125,22 @@ body {
   color: #434455;
 }
 
+.team-section {
+  background-color: #f4f4fd;
+}
+
 .team-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-element {
+  background-color: #ffffff;
 }
 
 .team-name {
@@ -139,13 +161,14 @@ body {
   color: #434455;
 }
 
-.portfolio-tittle {
+.portolio-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-product {
@@ -162,6 +185,24 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.footer-stngs {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-studio-style {
+  color: #f4f4fd;
 }
 
 .footer-text {
