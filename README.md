@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-fullstack course (html+css homework1)
+# goit-markup-hw-02
+fullstack course (html+css homework2)
