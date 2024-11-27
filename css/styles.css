@@ -4,6 +4,15 @@ body {
   background-color: #ffffff;
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .logo {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -15,7 +24,7 @@ body {
   color: #4d5ae5;
 }
 
-.header-studio-style {
+.header-logo .logo-part {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -24,20 +33,7 @@ body {
   color: #2e2f42;
 }
 
-.address-stngs {
-  font-style: normal;
-}
-
-.nav-links,
-.address-list,
-.features-list,
-.team-list,
-.portfolio-list {
-  list-style-type: none;
-}
-
-.nav-links .link {
-  text-decoration: none;
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -45,35 +41,22 @@ body {
   color: #2e2f42;
 }
 
-.nav-links .link:hover,
-.nav-links .link:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
-.address-list {
-  list-style-type: none;
+.contacts {
+  font-style: normal;
 }
 
-.address-link {
-  text-decoration: none;
-  font-weight: 400;
+.contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.address-link:hover,
-.address-link:focus {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
 }
 
 .hero-section-stngs {
@@ -91,7 +74,6 @@ body {
 
 .order-button {
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -103,10 +85,6 @@ body {
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
-}
-
-.feauture-list {
-  list-style-type: none;
 }
 
 .feature-tittle {
@@ -187,21 +165,11 @@ body {
   color: #434455;
 }
 
-.footer-stngs {
+.page-footer {
   background-color: #2e2f42;
 }
 
-.footer-logo {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.footer-studio-style {
+.footer-logo .logo-part {
   color: #f4f4fd;
 }
 
